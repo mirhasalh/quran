@@ -6,14 +6,19 @@ A Flutter project for Al Quran cloud - A full featured Quran app.
 
 Architecture overview:
 
-The UI lives in `lib/src/pages`, while state management is handled in `lib/src/quran/states.dart` using [flutter_bloc](https://bloclibrary.dev/).
+The UI lives in `lib/src/pages`, while state management is handled
+in `lib/src/quran/states.dart` using [flutter_bloc](https://bloclibrary.dev/).
 
-### Features
+Features:
 
-* Load a single surah.
-* Load all surahs with search functionality.
-* Play audio recitations.
-* Android [adaptive icons.](https://developer.android.com/develop/ui/compose/system/icon_design_adaptive)
+- Load a single surah.
+- Load all surahs with search functionality.
+- Play audio recitations.
+- Android [adaptive icons.](https://developer.android.com/develop/ui/compose/system/icon_design_adaptive)
+
+Resources:
+
+The Quranic resources and data used in this project are provided by AlQuran Cloud https://alquran.cloud/
 
 ## Screenshots
 
@@ -26,6 +31,8 @@ The UI lives in `lib/src/pages`, while state management is handled in `lib/src/q
 </table>
 
 ## Video
+
+- [Youtube.](https://youtube.com/shorts/fwJJEDASRl0)
 
 <video src="videos/IMG_20260601_204541_720.mp4" width="320" controls></video>
 
